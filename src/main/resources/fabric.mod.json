@@ -11,13 +11,13 @@
     "environment": "*",
     "entrypoints": {
         "fabric-datagen": [
-            "net.urmur.DataGenerator"
+            "net.dev.DataGenerator"
         ],
         "client": [
-            "net.urmur.Client"
+            "net.dev.Client"
         ],
         "main": [
-            "net.urmur.Main"
+            "net.dev.Main"
         ]
     },
     "mixins": [
