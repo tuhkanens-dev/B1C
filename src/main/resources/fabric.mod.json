@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "boc",
+    "version": "${version}",
+    "name": "B1C",
+    "description": "",
+    "authors": [],
+    "contact": {},
+    "license": "All-Rights-Reserved",
+    "icon": "assets/boc/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "fabric-datagen": [
+            "net.urmur.DataGenerator"
+        ],
+        "client": [
+            "net.urmur.Client"
+        ],
+        "main": [
+            "net.urmur.Main"
+        ]
+    },
+    "mixins": [
+        "boc.mixins.json",
+        {
+            "config": "boc.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
