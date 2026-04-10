@@ -1,4 +1,4 @@
-package net.dev;
+package dev;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
